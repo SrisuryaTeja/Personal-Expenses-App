@@ -1,0 +1,23 @@
+# Set specific language for certain file types
+*.js linguist-language=JavaScript
+*.py linguist-language=Python
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.cpp linguist-language=C++
+*.java linguist-language=Java
+*.dart linguist-language=Dart
+*.c linguist-language=C
+*.swift linguist-language=Swift
+
+# Mark minified JavaScript files as generated
+*.min.js linguist-generated
+
+# Exclude vendor files from language stats
+vendor/**/* linguist-vendored
+
+# Exclude build files from language stats
+build/**/* linguist-vendored
+
+# Set language for specific directories
+src/**/*.tsx linguist-language=TypeScript
+
